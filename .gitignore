@@ -58,6 +58,14 @@ local_vault.db
 .env.local
 .env.*.local
 
+# Security / Secrets
+.test_token
+*.pem
+*.key
+secrets/
+credentials/
+*.secret
+
 # Docker
 docker-compose.override.yml
 
